@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-rtl.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/myscript.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <!-- <a href="menu.html"></a> -->
+    <title>افزودن و ویرایش مشتریان </title>
+</head>
+<body>
+    <div class="d-flex justify-content-center">
+    <div class="container-fluid z-header z-h-min">
+       
+           <!-- شروع منو -->
+            <div class="row">
+            <nav class="col-12 navbar navbar-expand-sm text-dark navbar-dark" style="background-color: #13adb5;">
+                <button class="navbar-toggler text-white" data-toggle="collapse" data-target="#zari">
+                    <span class="navbar-toggler-icon text-white "></span>
+                </button>
+
+                   <div class="collapse navbar-collapse" id="zari">
+                    <ul class="navbar-nav text-white d-flex justify-content-center align-items-center">
+                        <li class="nav-item">
+                           
+                            <a class="nav-link ml-lg-3 text-white" href="index.html"> <i class="fa fa-home align-middle"></i> صفحه اصلی </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ml-lg-3 text-white" href="dashboard.html"> <i class="fa fa-vcard-o align-middle"></i>  داشبورد </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ml-lg-3 text-white" href="add-edit.html"> <i class="fa fa-users align-middle"></i>  مشتریان </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ml-lg-3 text-white" href="profile.html">  <i class="fa fa-id-badge align-middle"></i> پروفایل </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ml-lg-3 text-white" href="index.html">  <i class="fa fa-window-restore align-middle"></i> خروج از سایت </a>
+                        </li>
+                    </ul>
+                   </div>
+            </nav>
+        </div> 
+            <!-- پایان منو -->
+        
+        <div class="row">
+            <div class="col-lg-12"></div>
+        </div>
+    </div>
+    <div class="container z-sub-header z-s-h-min">
+        <div class="row">
+            <div class="col-lg-12">
+               
+                <div class="card z-card p-2 mt-2 shadow border-0">
+                    
+                        <h6 class="card-title p-2 text-center mt-2" style="color: #13adb5; font-size: 27px;">  مشتریان </h6>
+                       
+                    <div class="card-body border-0">
+                        <button class="btn btn-primary rounded " style="background-color: #1784D9; font-size: 13px;"> <a href="signin-customer.html"> کاربر جدید </a> </button>
+                       <hr>
+                       <div class="">
+                           <table class="table table-bordered table-responsive-lg">
+                               <thead>
+                                <tr>
+                                <th> شماره </th>
+                                <th> نام </th>
+                                <th> نام خانوادگی </th>
+                                <th> ایمیل </th>
+                                <th> تاریخ ثبتنام </th>
+                                <th> دستورات </th>
+                            </tr>
+                               </thead>
+                               <tbody class="fild-customer">
+                                <tr class="roww">
+                                    <td>1 </td>
+                                    <td> zahra </td>
+                                    <td> tanhaei </td>
+                                    <td> z.tanhaei1996@gmail.com </td>
+                                    <td> 1400/2/9 </td>
+                                    <td> 
+                                        <a class="btn rounded" style="font-size: 12px; background-color: #25c3e6; color: #fff;" href="pro-cust.html">
+                                             <i class="fa fa-user align-middle"  style="font-size: 14px !important;"></i> نمایش پروفایل </a> 
+
+                                        <button class="btn btn-danger rounded" style="font-size: 12px;"  class="delet-cust"> 
+                                            <i class="fa fa-trash align-middle"  style="font-size: 14px !important;"></i> حذف </button> 
+
+                                        <!-- <div class="modal fade" id="modal">
+                                            <div class="modal-dialog modal-dialog-centered">
+                                                <div class="modal-content">
+                                                     <div class="modal-body">
+                                                        <p> میخواهید فیلد را حذف کنید؟ </p> 
+                                                    </div> -->
+                                                    <!-- <div class="modal-footer">
+                                                        <button type="button" class="btn btn-danger" data-dismiss="modal"> بستن </button>
+                                                    </div> -->
+                                                </div>
+                                            </div>
+                                        </div>    
+                                        <a class="btn btn-success rounded" style="font-size: 12px; color: #fff;" href="edit-customer.html">
+                                             <i class="fa fa-edit align-middle"  style="font-size: 14px !important;"> </i> ویرایش </a>    
+                                    </td>
+                                </tr> 
+                                     <tr class="roww">
+                                    <td>2 </td>
+                                    <td> leila </td>
+                                    <td> azizi </td>
+                                    <td>l.noori215@gmail.com </td>
+                                    <td> 1400/4/5 </td>
+                                    <td> 
+                                        <a class="btn rounded" style="font-size: 12px; background-color: #25c3e6; color: #fff;" href="pro-cust.html">
+                                             <i class="fa fa-user align-middle"  style="font-size: 14px !important;"></i> نمایش پروفایل </a>    
+                                        <button class="btn btn-danger rounded" data-toggle="modal" data-target="#modal" style="font-size: 12px;" class="delet-cust"> 
+                                            <i class="fa fa-trash align-middle"  style="font-size: 14px !important;"></i> حذف </button> 
+                                        <!-- <div class="modal fade" id="modal">
+                                            <div class="modal-dialog modal-dialog-centered">
+                                                <div class="modal-content">
+                                                     <div class="modal-body">
+                                                        <p> میخواهید فیلد را حذف کنید؟ </p> 
+                                                    </div> -->
+                                                    <!-- <div class="modal-footer">
+                                                        <button type="button" class="btn btn-danger" data-dismiss="modal"> بستن </button>
+                                                    </div> -->
+                                                </div>
+                                            </div>
+                                        </div>    
+                                        <a class="btn btn-success rounded" style="font-size: 12px; color: #fff;" href="edit-customer.html">
+                                             <i class="fa fa-edit align-middle"  style="font-size: 14px !important;"></i> ویرایش </a>    
+                                    </td>
+                                </tr>
+                               </tbody>
+                           </table>
+                       </div>
+                    </div>
+                </div>
+            
+            </div>
+         <!--فووتر-->
+         <div class="col-lg-12 ftr"> 
+            <div class="container-fluid ">
+
+         <div class="card mt-5 border-0">
+             <div class="card-body border-0 d-flex justify-content-center">                        
+                 <span class="btn rounded-pill d-flex justify-content-center align-items-center ml-1" style="font-size: 26px; background-color: #c7c7c7; color:#fff; width: 35px; height: 35px;">
+                     <i class="fa fa-instagram  align-middle "></i></span> 
+
+                   <span class="btn rounded-pill d-flex justify-content-center align-items-center ml-1" style="font-size: 26px; background-color: #c7c7c7; color:#fff; width: 35px; height: 35px;"> 
+                      <i class="fa fa-twitter align-middle"></i></span>
+
+                   <span class="btn rounded-pill d-flex justify-content-center align-items-center ml-1" style="font-size: 26px; background-color: #c7c7c7; color:#fff; width: 35px; height: 35px;">
+                      <i class="fa fa-facebook align-middle "></i></span> 
+
+                    <span class="btn rounded-pill d-flex justify-content-center align-items-center ml-1" style="font-size: 26px; background-color: #c7c7c7; color:#fff; width: 35px; height: 35px;">
+                          <i class="fa fa-send align-middle "></i></span>
+             </div>
+             <div class="card-footer shadow" style="font-size: 14px;">&copy;
+                 تمامی حقوق سایت محفوظ است.
+             </div>
+         </div>
+      </div> 
+</div>
+
+         <!--فووتر-->
+        
+        </div>
+    </div>
+    </div>
+</body>
+</html>
